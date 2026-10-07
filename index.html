@@ -1,100 +1,151 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <nav class="navbar">
-        <h3>Portfolio</h3>
-        <div class="port-link">
-            <a href="">Home</a>
-            <a href="">About</a>
-            <a href="">Skills</a>
-            <a href="">Project</a>
-            <a href="">Education</a>
-            <a href="">Contact</a>
-        </div>
-    </nav>
-    <section class="hero">
-        <div  class="heros">
-            <h1>Hey! , Iam <span style="color: #e8a7b4;">Niranjana</span></h1>
-            <h3>Full-Stack Developer</h3>
-            <p>I build clean, responsive, and user-friendly web experiences with a focus on simplicity and functionality.</p>
+
+    <section class="hero" id="home">
+        <nav class="navbar">
+            <!-- <h3>Portfolio</h3> -->
+            <div class="port-link">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Project</a>
+                <a href="#education">Education</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </nav>
+        <div class="frame">
+            <div class="heros">
+                <h1>Hey! , I am <span style="color: #fbf7f8;">Niranjana</span></h1>
+                <h3>Full-Stack Developer</h3>
+                <p>I build clean, responsive, and user-friendly web experiences with a focus on simplicity and
+                    functionality.</p>
+            </div>
+            <div class="hero-image">
+                <img src="ninjoos-removebg-preview.png" alt="Niranjana">
+            </div>
         </div>
     </section>
-    <section class="about">
+    <section class="about" id="about">
         <div class="aboutme">
             <h1>About Me</h1>
             <div class="bar"></div>
-            <p>I am a Python Full Stack Developer focused on building reliable, responsive, and user-friendly web applications.
-                I am committed to continuous learning, problem-solving, and developing efficient solutions through modern technologies.</p>
+            <p>I am a Python Full Stack Developer focused on building reliable, responsive, and user-friendly web
+                applications.
+                I am committed to continuous learning, problem-solving, and developing efficient solutions through
+                modern technologies.</p>
         </div>
     </section>
-    <section class="skill">
-    <div class="skills">
-        <h1>Skills</h1>
-        <div class="baar"></div>
-    </div>
-    <div class="skill-cards">
-        <div class="skill-card">
-            <h3>Front-end</h3>
-            <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-            </ul>
+    <section class="skill" id="skills">
+        <div class="skills">
+            <h1>Skills</h1>
+            <div class="baar"></div>
         </div>
-        <div class="skill-card">
-            <h3>Back-end</h3>
-            <ul>
-                <li>Python</li>
-                <li>Django</li>
-                <li>Rest APIs</li>
-            </ul>
+        <div class="skill-cards">
+            <div class="skill-card">
+                <h3>Front-end</h3>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                </ul>
+            </div>
+            <div class="skill-card">
+                <h3>Back-end</h3>
+                <ul>
+                    <li>Python</li>
+                    <li>Django</li>
+                    <li>Rest APIs</li>
+                </ul>
+            </div>
+            <div class="skill-card">
+                <h3>Database</h3>
+                <ul>
+                    <li>MySQL</li>
+                    <li>SQLite</li>
+
+                </ul>
+            </div>
+            <div class="skill-card">
+                <h3>Tools</h3>
+                <ul>
+                    <li>Git</li>
+                    <li>GitHub</li>
+                    <li>VS Code</li>
+                </ul>
+            </div>
         </div>
-        <div class="skill-card">
-            <h3>Database</h3>
-            <ul>
-                <li>MySQL</li>
-                <li>SQLite</li>
-                
-            </ul>
-        </div>
-        <div class="skill-card">
-            <h3>Tools</h3>
-            <ul>
-                <li>Git</li>
-                <li>GitHub</li>
-                <li>JavaScript</li>
-            </ul>
-        </div>
-    </div>
     </section>
-    <section class="projects">
+    <section class="projects" id="projects">
         <div class="project">
             <h1>Projects</h1>
             <div class="prjct1">
                 <h3>College Placement Preparation Suite — CPPS</h3>
-                <p> a full-stack placement preparation platform using Flutter, Django, Python, MySQL, 
-                   and JavaScript to help students prepare for recruitment. The application includes aptitude tests, mock interviews,
-                   resume building, a student dashboard, and user authentication.></p>
-                <div class="img1">
-                    <img src="cpps.png">
-                </div>
+                <p> a full-stack placement preparation platform using Flutter, Django, Python, MySQL,
+                    and JavaScript to help students prepare for recruitment. The application includes aptitude tests,
+                    mock interviews,
+                    resume building, a student dashboard, and user authentication.</p>
+
             </div>
             <div class="prjct2">
                 <h3>Online vehicle parking system</h3>
-                <p>Developed a web-based parking management system using Python, Django, HTML, CSS, and MySQL 
-                    for efficient parking slot booking and tracking. The system provides real-time slot 
+                <p>Developed a web-based parking management system using Python, Django, HTML, CSS, and MySQL
+                    for efficient parking slot booking and tracking. The system provides real-time slot
                     availability, online booking, an admin dashboard, and user activity management.</p>
-                <div class="img2">
-                    <img src="park.png" >
+
+            </div>
+        </div>
+    </section>
+    <section class="education" id="education">
+        <h2>Education</h2>
+        <div class="education-card">
+            <div class="education-icon">🎓</div>
+            <div class="education-content">
+                <h3>B.Sc. Computer Science</h3>
+                <p class="college">College Name</p>
+                <p class="year">2023 – 2026</p>
+                <p class="cgpa">CGPA: <strong>7.94</strong></p>
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <h2>Contact Me</h2>
+        <p class="contact-text">
+            Feel free to get in touch with me for opportunities, collaborations, or any queries.
+        </p>
+        <div class="contact-container">
+            <div class="contact-info">
+                <div class="contact-item">
+                    <h3>Email</h3>
+                    <p>niranjanap234@gmail.com</p>
+                </div>
+                <div class="contact-item">
+                    <h3>Phone</h3>
+                    <p>+91 7510209896</p>
+                </div>
+                <div class="contact-item">
+                    <h3>LinkedIn</h3>
+                    <a href="https://www.linkedin.com/in/niranjana-p-546801377">
+                        LinkedIn Profile
+                    </a>
+                </div>
+                <div class="contact-item">
+                    <h3>GitHub</h3>
+                    <a href="https://github.com/niranjanap7">
+                        GitHub Profile
+                    </a>
                 </div>
             </div>
         </div>
     </section>
 </body>
+
 </html>
